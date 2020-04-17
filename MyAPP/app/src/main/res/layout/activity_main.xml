@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="51dp"
+        android:textColor="#000000"
+        android:text="                    Anemia Test App                     "
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:text=" " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Patient Id " />
+
+    <EditText
+        android:id="@+id/patientId"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="Select Ethnicity of Baby" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="209dp">
+
+        <RadioButton
+            android:id="@+id/africanAmerican"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="African american" />
+
+        <RadioButton
+            android:id="@+id/american"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="American" />
+
+        <RadioButton
+            android:id="@+id/asian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asian" />
+
+        <RadioButton
+            android:id="@+id/hispanic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Hispanic" />
+
+        <RadioButton
+            android:id="@+id/indianSubcontinent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indian Subcontinent" />
+
+        <RadioButton
+            android:id="@+id/nativeAmerican"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Native American" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/beginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Begin!" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plug the sensor to power, and wait for 30 seconds. Then insert the newborn's index finger into the sensor-probe, and click the 'BEGIN!' button on this app. Please wait for 1 minute and the results will be displayed." />
+
+</LinearLayout><!-- everything shd be above this. !-->
+

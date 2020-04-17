@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyAPP</string>
+    <string name="hello_world">0</string>
+    <string name="absValue">0</string>
+    <string name="finalABS">0</string>
+    <string name="finalABSNumber">0</string>
+    <string name="IsAnemicText">Patient has anemia?</string>
+</resources>
